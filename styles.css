@@ -38,6 +38,11 @@
   padding: 0
 }
 
+/* img is default inline-bock, change it so it will not add the strange space at the bottom when <img> is wrapped with a <a> */
+img {
+  display: block;
+}
+
 /* ///////////////
   General styling
   ////////////// */
