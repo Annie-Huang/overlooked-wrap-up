@@ -59,14 +59,20 @@ img {
 }
 
 .btn {
-  display: inline-flex;
-  justify-self: end;
+  display: inline-block;
 
-  padding: 0.5em 2.5em;
+  padding: 0.5em 3em; /*0.5em 2.5em; */
   border-radius: var(--border-radius);
   font-size: var(--fs-400);
+
+  /*
   background: var(--clr-accent-400);
   color: white;
+  */
+  background: var(--bg, var(--clr-accent-400));
+  color: var(--fg, #fff);
+
+
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -148,6 +154,10 @@ img {
   opacity: 0.5;
 }
 
+.candidate .btn {
+  /* align-self: end;  I cannot tell which line of code in Kevin's file make the row to be higher, which will require this adjustment */
+  justify-self: end;
+}
 
 /* /////////////////
    Layout related
