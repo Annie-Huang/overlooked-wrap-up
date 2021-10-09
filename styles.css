@@ -44,6 +44,7 @@
 
 body {
   font-family: var(--ff-base);
+  line-height: 1.6;
   font-size: var(--fs-400);
   font-weight: var(--fw-400);
   color: var(--clr-base-400);
@@ -96,12 +97,14 @@ img {
   ////////////// */
 
 .candidate {
-  padding: 10px;
+  padding: 1em;
 }
 
 .candidate .name {
-  color: var(--clr-base-500);
-  font-weight: var(--fw-700);
+  font-family: var(--ff-accent);
+  font-size: var(--fs-500);
+  color: var(--clr-base-500); /* I didn't feel it is this big so I didn't add it before */
+  line-height: 1;
 }
 .candidate .roles {
   margin-top: -0.5em; /* force to override the gap defined in the grid-template */
