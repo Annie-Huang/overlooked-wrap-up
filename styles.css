@@ -54,10 +54,6 @@ ul {
   list-style: none;
 }
 
-img {
-  border-radius: var(--border-radius);
-}
-
 .btn {
   display: inline-block;
 
@@ -127,6 +123,10 @@ img {
 
 .candidate {
   padding: 1em;
+}
+
+.candidate img {
+  border-radius: var(--border-radius);
 }
 
 .candidate .name {
