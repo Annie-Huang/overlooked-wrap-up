@@ -85,6 +85,8 @@ img {
   background: var(--bg, lightgray);
   color: var(--fg, #333);
 }
+
+/* Oh, i didn't know the plan is to add class into html, i thought html file cannot be touched
 .tag:nth-of-type(1) {
   background: var(--clr-ui-300);
   color: var(--clr-ui-400);
@@ -96,6 +98,19 @@ img {
 .tag:nth-of-type(3) {
   background: var(--clr-dev-300);
   color: var(--clr-dev-400);
+}
+*/
+.ux {
+  --bg: var(--clr-ux-300);
+  --fg: var(--clr-ux-400);
+}
+.ui {
+  --bg: var(--clr-ui-300);
+  --fg: var(--clr-ui-400);
+}
+.dev {
+  --bg: var(--clr-dev-300);
+  --fg: var(--clr-dev-400);
 }
 
 
