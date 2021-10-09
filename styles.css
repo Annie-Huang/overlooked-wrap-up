@@ -51,7 +51,7 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
 img {
@@ -135,11 +135,14 @@ img {
 }
 .candidate .social {
   display: flex;
-  justify-content: center;
-  gap: 27px;
+  justify-content: space-evenly; /* center; It is not space-evenly from the figma */
+  /*gap: 27px;*/
   align-items: center;
 }
-
+.candidate .social a:hover,
+.candidate .social a:focus {
+  opacity: 0.5;
+}
 
 
 /* /////////////////
