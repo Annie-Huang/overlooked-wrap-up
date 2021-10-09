@@ -80,6 +80,7 @@ img {
   display: inline-block;
   padding: 0.15em 0.75em; /* 2px 12px; */
   border-radius: 9999px;
+  margin-right: 0.5em;
 
   /* It is good to give some default color for the .tag */
   background: var(--bg, lightgray);
@@ -130,9 +131,12 @@ img {
 }
 .candidate .roles {
   margin-top: -0.5em; /* force to override the gap defined in the grid-template */
-  display: flex;
-  gap: 0.5em;
+  /*display: flex;*/
+  /*gap: 0.5em;*/
+  line-height: 1;
+  font-size: var(--fs-300);
 }
+
 .candidate .social {
   display: flex;
   justify-content: space-evenly; /* center; It is not space-evenly from the figma */
