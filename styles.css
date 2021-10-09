@@ -130,7 +130,8 @@ ul {
   padding: 1em;
 }
 
-.candidate img {
+/* we don't want this on the social icons */
+.candidate > img {
   border-radius: var(--border-radius);
 }
 
@@ -153,6 +154,7 @@ ul {
   justify-content: space-evenly; /* center; It is not space-evenly from the figma */
   /*gap: 27px;*/
   align-items: center;
+  padding: 0.5em 0 0;
 }
 .candidate .social a:hover,
 .candidate .social a:focus {
