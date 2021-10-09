@@ -71,12 +71,19 @@ img {
   text-decoration: none;
 }
 
+/* I am very happy that Kevin has the same solution for .tag */
 .tag {
   font-size: var(--fs-300);
+  font-weight: var(--fw-700); /* I miss this one */
   text-transform: uppercase;
-  display: block;
-  padding: 2px 12px;
+  /*display: block;*/
+  display: inline-block;
+  padding: 0.15em 0.75em; /* 2px 12px; */
   border-radius: 9999px;
+
+  /* It is good to give some default color for the .tag */
+  background: var(--bg, lightgray);
+  color: var(--fg, #333);
 }
 .tag:nth-of-type(1) {
   background: var(--clr-ui-300);
