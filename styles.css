@@ -157,6 +157,13 @@ img {
 .candidate .btn {
   /* align-self: end;  I cannot tell which line of code in Kevin's file make the row to be higher, which will require this adjustment */
   justify-self: end;
+
+  /* this is another great solution
+  margin-left: auto => would work outside of a grid or flex
+  margin-top: auto => will have no impact.
+  margin-top: auto;
+  margin-left: auto;
+  */
 }
 
 /* /////////////////
